@@ -1,6 +1,6 @@
 name: "ascension"
 displayName: "Ascension"
 author: "Sh1penfire"
-version: 136
+minGameVersion: 136
 description: "Simple mod which invokes deathless run rules. Have fun :)"
 
