@@ -8,5 +8,5 @@ Events.on(UnitDestroyEvent, e => {
 });
 
 Events.on(BlockDestroyEvent, e => {
-  if(e.tile.build.team == Vars.player.team() && !(e.tile.build.block.class instanceof CoreBlock) && Vars.player.team().cores().size != 1) end();
+  if(e.tile.build.team == Vars.player.team() && !(e.tile.build.block.class instanceof CoreBlock)) end();
 });
